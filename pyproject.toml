@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "worder"
+version = "0.1.0"
+description = ""
+authors = ["mefanya"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^22.2"
+sqlalchemy = "^2.0.41"
+apscheduler = "^3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
